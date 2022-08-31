@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body {
+    margin: 0;
+    padding: 0 10vw  ;
+    width: 100vw;
+    box-sizing: border-box;
+    min-height: 100vh;
+    
+}
+
+p {
+    font-family: "Lato";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a {
+    font-style: none;
+    color: #FF5252;
+    font-weight: 900;
+}
+
+.vertical-line{
+    position: fixed;
+    background: linear-gradient(355deg, rgba(255,205,146,1) 0%, rgba(255,82,82,1) 100%);
+    height: 100vh;
+    top: 0;
+    left: 6vw;
+    width: 2px;
+}
+
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 0;
+
+}
+
+
+.page-header__title-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.page-header__title{
+    font-size: 45px;
+    color:black;
+    font-family: "Abril Fatface" !important;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+
+.page-header__underline{
+    width: 100%;
+    height: 2px;
+    background-color: #ff5252; 
+    margin-top: 2%;
+}
+
+.page-header__nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.page-header__nav a{
+    text-decoration: none;
+    font-family: "Lato";
+    color: black;
+    border: 3px solid rgba(255,82,82,1);
+    background: transparent;
+    width:75px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 1%;
+    text-align: center;
+    display: inline-block;
+
+}
+
+
+
+
+
+.presentation{ 
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    align-items: center;
+
+}
+
+.presentation__text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.presentation img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 1%;
+    border-radius: 8%;
+    
+}
+
+.imgButton img {
+    width: 90%;
+}
+
+.imgButton {
+    display: flex;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-around;
+    padding-top: 1%;
+    -webkit-filter: grayscale(0%);
+    transition: 1s;
+   
+
+}
+
+
+
+.imgButton :hover {
+
+    -webkit-filter: grayscale(100%);
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .presentation {
+        flex-direction: column;
+    }
+
+    .page-header {
+        flex-direction: column;
+    
+    }
+
+}
