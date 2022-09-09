@@ -115,18 +115,43 @@ a {
 
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 2vw;
-    -webkit-filter: grayscale(0%);
 
 }
 
-.footer :hover {
-
-    -webkit-filter: grayscale(100%);
+.footer a {
+    
+    text-decoration: none;
+    -webkit-filter: brightness(1);
 }
 
+.footer a :hover :not(span){
+    -webkit-filter: brightness(0.35);
+    
+}
 
+.footer__button { 
+    overflow: hidden; 
+    font-family: 'Lato';
+    color: white;
+    font-size: 20px;
+    
+}
+.footer__button .caption { 
+    opacity: 0; 
+    transition: .5s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.footer__button:hover .caption { 
+    opacity: 1; 
+    
+}
 
 
 @media screen and (max-width: 500px) {
