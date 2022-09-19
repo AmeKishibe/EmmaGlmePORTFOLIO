@@ -116,7 +116,7 @@ a {
 .footer{
     display: flex;
     justify-content: space-evenly;
-    gap: 2vw;
+
     align-items: center;
 
 }
@@ -138,6 +138,10 @@ a {
     color: white;
     font-size: 20px;
     
+}
+
+.footer__button img {
+    width: 100%;
 }
 .footer__button .caption { 
     opacity: 0; 
@@ -165,5 +169,11 @@ a {
         flex-direction: column;
     
     }
-
+    footer{ 
+        flex-direction: column;
+    }
+    .page-header__nav{
+        margin-top: 5vh;
+    }
+ 
 }
