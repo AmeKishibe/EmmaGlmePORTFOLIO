@@ -21,6 +21,7 @@ a {
     color: #FF5252;
     font-weight: 900;
 }
+.hidden {display:none;}
 
 .vertical-line{
     position: fixed;
@@ -86,8 +87,49 @@ a {
 
 }
 
+.body__feed {
+    margin-top: 6vh;
+    display: grid;
+    
+}
+
+.feed__line{
+    display: -webkit-inline-box;
+
+}
+article {
+    margin-left: 6vw;
+    margin-right: 30vw;
+}
 
 .feed__line--button button {
     border: none;
     background-color:transparent;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .feed__line--button {
+        display: grid;
+    }
+    .feed__line {
+        display: grid;
+
+
+
+    }
+    .page-header {
+        flex-direction: column;
+    
+    }
+    .page-header__nav{
+        margin-top: 5vh;
+    }
+    article {
+        text-align: center;
+    }
 }
