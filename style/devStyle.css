@@ -126,3 +126,20 @@ a {
     display: block;
     object-fit: fill;
 }
+
+@media screen and (max-width: 500px) {
+
+    .presentation {
+        flex-direction: column;
+    }
+
+    .page-header {
+        flex-direction: column;
+    
+    }
+   
+    .page-header__nav{
+        margin-top: 5vh;
+    }
+ 
+}
