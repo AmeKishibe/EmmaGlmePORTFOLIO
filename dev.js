@@ -1,3 +1,6 @@
+const feedImages = document.getElementById('feed__images');
+const feedText = document.getElementById('feed__text');
+
 var isAnSpoilerVisible = false; // deviendra le spoiler visible
         var spoilers = [
             document.getElementById('spoiler1'),
