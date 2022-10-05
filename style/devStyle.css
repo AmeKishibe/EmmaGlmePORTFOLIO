@@ -42,8 +42,8 @@ a {
     color: black;
     border: 3px solid rgba(255, 82, 82) ;
     background: transparent;
-    width:330px;
-    height: 200px;
+    width:33vw;
+    height: 20vh;
     padding: 10px;
     border-radius: 8px;
     margin: 1%;
@@ -54,8 +54,8 @@ a {
     position:relative;
     transition: 0.5s;
     font-size: 30px;
-    width:350px;
-    height: 220px;
+    width:35vw;
+    
     
   }
 
@@ -144,8 +144,14 @@ a {
     .page-header__nav{
         margin-top: 5vh;
     }
+    
     .menu__line{
         flex-direction: column;
+    }
+    .menu a {
+        width:50vw;
+        height: 20vh;
+        
     }
    
 }
