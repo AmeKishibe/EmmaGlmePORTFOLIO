@@ -1,0 +1,23 @@
+.feed_img{
+    margin-top: 6vh;
+}
+
+
+.feed_img{
+ display: flex;
+ justify-content: space-evenly;
+ gap: 3vw;
+}
+.feed_img  img {
+    border-radius: 5%;
+}
+
+
+@media screen and (max-width: 500px) {
+
+   .feed_img{
+        flex-direction: column;
+        
+   }
+
+}
