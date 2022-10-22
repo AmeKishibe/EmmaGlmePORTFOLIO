@@ -1,66 +1,123 @@
-.paragraph__photography{
+h2{
+    font-size: 30px;
+    font-family: 'Lato';
+    margin: 0;
+}
+
+.ancres__btn{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+
+#paragraph__photography{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.paragraph__photography a{
-    margin-top: 2vh;
+.paragraph__photography--title{
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+    gap:25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
+.paragraph__photography--a{
+    margin: 0 !important;
+    text-decoration: none;
+    font-family: "Lato";
+    color: black;
+    border: 3px solid rgba(255,82,82,1);
+    background: transparent;
+    width:150px;
+    height: 15px;
+    padding: 10px 10px 14px 10px;
+    border-radius: 30px;
+    text-align: center;
+    display: inline-block;
+}
+#paragraph__photography a{
+    margin-top: 5vh;
+}
+
 
 .carrousel__container {
     display: flex;
     justify-content: center;
 }
 
+.ancres__btn a{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: #000000 solid 2px;
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 15px;
+    width:auto;
+    height: 15px;
+    padding: 10px 10px 14px 10px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+    
+}
+
+
 button {
-    background: rgb(255, 255, 255);
-    cursor: pointer;
-    padding: 1em;
-    display: flex;
-    border-radius: 100px;
-    border-color: #ff5252;
-    border-width: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 -5vw 0 -5vw;
+    border: none;
+    border-radius: 9px;
 }
 
 button .arrow {
-    border: solid #ff5252;
+    border: solid #ffffff;
     border-radius: 3px;
     border-width: 0 4px 4px 0;
     display: inline-block;
     padding: 10px;
     outline: none;
+    cursor: pointer;
 }
 
-#right-btn {
-    margin: auto 0 auto 8em;
-}
+
 
 #right-btn .arrow {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) ;
+    
 }
+
+
 
 #left-btn {
-    z-index: 0;
-    margin: auto 8em auto 0;
+    z-index: 5;
 }
-
+#right-btn {
+    z-index: 5;
+}
 #left-btn .arrow {
     transform: rotate(135deg);
 }
 
-h2{
-    font-size: 35px;
-    font-family: 'Lato';
-    /* margin-left: 14vw; */
-}
 
 
 
 @media screen and (max-width: 500px) {
 
-    #carousel img {
-        max-width: 8px;
+    #carousel {
+        max-width: 100%;
+    }
+    button {
+        margin: 0 -9vw 0 -9vw;
+        
+    }
+    .carrousel__container{
+        max-width: 75%;
     }
    
 }
