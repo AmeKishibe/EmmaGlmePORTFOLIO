@@ -51,7 +51,7 @@ a {
 }
 .page-header__title{
     font-size: 45px;
-    color:black;
+    color:#1b1b1b;
     font-family: "Abril Fatface" !important;
     font-weight: 400;
     text-decoration: none;
@@ -76,13 +76,13 @@ a {
 .page-header__nav a{
     text-decoration: none;
     font-family: "Lato";
-    color: black;
+    color: #1b1b1b;
     border: 3px solid rgba(255,82,82,1);
     background: transparent;
     width:75px;
     height: 20px;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 50px;
     margin: 1%;
     text-align: center;
     display: inline-block;

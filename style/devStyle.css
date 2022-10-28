@@ -17,7 +17,7 @@ p {
 a {
     display: flex;
     font-style: none;
-    color: black;
+    color: #1B1B1B;
     text-decoration: none;
     font-family: 'Lato';
     font-weight: 900;
@@ -37,7 +37,7 @@ a {
     text-decoration: none;
     font-size: 25px;
     font-family: "Lato";
-    color: black;
+    color: #1b1b1b;
     border: 3px solid rgba(255, 82, 82) ;
     background: transparent;
     width:33vw;
@@ -88,7 +88,7 @@ a {
 }
 .page-header__title{
     font-size: 45px;
-    color:black;
+    color:#1b1b1b;
     font-family: "Abril Fatface" !important;
     font-weight: 400;
     text-decoration: none;
@@ -113,7 +113,7 @@ a {
 .page-header__nav a{
     text-decoration: none;
     font-family: "Lato";
-    color: black;
+    color: #1b1b1b;
     border: 3px solid rgba(255,82,82,1);
     background: transparent;
     width:75px;
