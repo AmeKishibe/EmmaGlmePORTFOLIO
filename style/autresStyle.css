@@ -105,7 +105,9 @@ button .arrow {
 }
 
 
-
+.ancres-btn:active {
+    background-color: #327080;
+}
 
 @media screen and (max-width: 500px) {
 
