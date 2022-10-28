@@ -1,10 +1,10 @@
-h2{
+h2 {
     font-size: 30px;
     font-family: 'Lato';
     margin: 0;
 }
 
-.ancres__btn{
+.ancres__btn {
     margin-top: 3vh;
     display: flex;
     justify-content: center;
@@ -12,36 +12,38 @@ h2{
 }
 
 
-#paragraph__photography{
+#paragraph__photography {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.paragraph__photography--title{
+.paragraph__photography--title {
     margin-top: 4vh;
     margin-bottom: 3vh;
-    gap:25vw;
+    gap: 25vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.paragraph__photography--a{
+
+.paragraph__photography--a {
     margin: 0 !important;
     text-decoration: none;
     font-family: "Lato";
     color: black;
-    border: 3px solid rgba(255,82,82,1);
+    border: 3px solid rgba(255, 82, 82, 1);
     background: transparent;
-    width:150px;
+    width: 150px;
     height: 15px;
     padding: 10px 10px 14px 10px;
     border-radius: 30px;
     text-align: center;
     display: inline-block;
 }
-#paragraph__photography a{
+
+#paragraph__photography a {
     margin-top: 5vh;
 }
 
@@ -51,20 +53,20 @@ h2{
     justify-content: center;
 }
 
-.ancres__btn a{
+.ancres__btn a {
     background-color: rgb(255, 255, 255);
     color: #000000;
     border: #000000 solid 2px;
     text-decoration: none;
     font-family: "Lato";
     font-size: 15px;
-    width:auto;
+    width: auto;
     height: 15px;
     padding: 10px 10px 14px 10px;
     border-radius: 50px;
     text-align: center;
     display: inline-block;
-    
+
 }
 
 
@@ -88,8 +90,8 @@ button .arrow {
 
 
 #right-btn .arrow {
-    transform: rotate(-45deg) ;
-    
+    transform: rotate(-45deg);
+
 }
 
 
@@ -97,29 +99,88 @@ button .arrow {
 #left-btn {
     z-index: 5;
 }
+
 #right-btn {
     z-index: 5;
 }
+
 #left-btn .arrow {
     transform: rotate(135deg);
 }
 
 
-.ancres-btn:active {
-    background-color: #327080;
+#UX__section{
+    margin: 0 10vw 0 10vw;
 }
+
+.UX__section--btn{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+
+}
+
+.UX__section--btn a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Lato";
+    color: black;
+    border: 3px solid rgba(255, 82, 82);
+    background: transparent;
+    width: 33vw;
+    height: 20vh;
+    padding: 10px;
+    border-radius: 8px;
+
+    transition: 0.5s;
+
+}
+
+.UX__section--btn a:hover {
+    position: relative;
+    transition: 0.5s;
+    font-size: 28px;
+    width: 35vw;
+
+
+}
+.UX__section--title h2{
+    margin-bottom: 4vh;
+    margin-top: 4vh;
+
+}
+
 
 @media screen and (max-width: 500px) {
 
     #carousel {
         max-width: 100%;
     }
+
     button {
         margin: 0 -9vw 0 -9vw;
-        
+
     }
-    .carrousel__container{
+    .carrousel__box{
+        display: flex;
+        justify-content: center;
+    }
+    .carrousel__container {
+        margin: 0;
         max-width: 75%;
     }
+
    
+
+    .paragraph__photography--title{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        
+    }
+
 }
