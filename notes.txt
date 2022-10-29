@@ -1,1 +1,3 @@
-ajt maquetts figma dans projets autres ---> UX UI
+ajt maquetts figma dans projets autres ---> UX UI : autres.html : mettre des cartes au lieu des bouton pour UX Maquettes
+
+--> pareil pour dev .html --> mettre cartes

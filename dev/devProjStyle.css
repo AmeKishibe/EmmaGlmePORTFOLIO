@@ -49,6 +49,31 @@ h2 {
     font-weight: 600;
 }
 
+.projet__text--title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projet__text--title a{
+    text-decoration: none;
+    font-family: "Lato";
+    color: #1b1b1b;
+    border: 2px solid rgba(255,82,82,1);
+    background: transparent;
+    width:7vw;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+.projet__text--title a:hover{
+    background-color: #FF5252;
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 500px) {
     .page-header {
         flex-direction: column;

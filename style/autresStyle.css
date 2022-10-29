@@ -41,7 +41,7 @@ h2 {
     text-decoration: none;
     font-family: "Lato";
     color: #1B1B1B;
-    border: 3px solid rgba(255, 82, 82, 1);
+    border: 2px solid rgba(255, 82, 82, 1);
     background: transparent;
     width: 150px;
     height: 15px;
@@ -49,6 +49,10 @@ h2 {
     border-radius: 30px;
     text-align: center;
     display: inline-block;
+}
+.paragraph__photography--a:hover{
+    background-color: rgba(255, 82, 82, 1);
+    color: #ffffff;
 }
 
 #paragraph__photography a {
