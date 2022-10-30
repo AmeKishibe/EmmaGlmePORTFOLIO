@@ -65,6 +65,7 @@
     </header>
 
     <div class="menu__scroll--container">
+        <button id="slide-left" type="button"><i class="arrow left"></i></button>
         <div id="menu__scroll">
             <div class="menu__section--card">
                 <article class="menu__section--article-card">
@@ -135,8 +136,8 @@
                 <a href="/dev/rubyonrails.html" class="card-btn"><img src="/style/images/plus.svg" alt=""></a>
             </div>
         </div>
-        <button id="slide-right" type="button">Slide right</button>
-        <button id="slide-left" type="button">Slide left</button>
+        <button id="slide-right" type="button"><i class="arrow right"></i></button>
+
 
     </div>
 
@@ -151,7 +152,12 @@
         buttonL.onclick = () => {
             document.getElementById('menu__scroll').scrollLeft -= 260;
         };
+        const scrollContainer = document.getElementById("menu__scroll");
 
+        scrollContainer.addEventListener("wheel", (evt) => {
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+        });
 
     </script>
 </body>
