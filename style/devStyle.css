@@ -1,105 +1,91 @@
-.menu__scroll--container {
+#menu__scroll {
     width: 75vw;
-    display: flex;
-    justify-content: center;
-}
-
-.menu__scroll {
-    display: grid;
-    grid-auto-flow: column;
-    scroll-behavior: auto;
-    gap: 1.2rem;
-    overflow-y: auto;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-}
-
-.menu__scroll::-webkit-scrollbar {
-    display: none;
-}
-
-.menu__section--card {
-    scroll-snap-align: start;
-
-}
-
-.menu__section--card p{
-    color: #1b1b1b;
-    font-size: 16px !important;
-}
-.menu__section--card h3{
-    text-transform: uppercase;
-    font-family: 'Lato';
-    font-weight: bold;
-    font-size: 25px !important;
-    color: #1b1b1b;
-}
-
-.menu__section--card{
-    border: solid 2px #FF5252;
-    width: 250px;
-    max-width: 250px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-}
-.menu__section--article-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin:18px 18px 0 18px;
-}
-
-.menu__section--article-card img{
-    max-width: 100%;
-}
-
-.menu__section--article-card h3{
-    margin: 1vh 0 0.5vh 0;
-}
-
-.menu__section--article-card p{
-    margin: 0;
-}
-
-.menu__section--card a{
-    text-decoration: none;
-    font-family: "Lato";
-    color: #1b1b1b;
-    border: 2px solid rgba(255,82,82,1);
-    background: transparent;
-    width:21px;
-    height: 21px;
-    padding: 10px;
-    border-radius: 50px;
-    text-align: center;
-    display: inline-block;
-    margin: 2vh 0 2vh 0;
-}
-
-.menu__section--card a:hover{
-    background-color: #FF5252;
-    color: #FFFFFF;
-}
-
-
+    height: auto;
+    border: 1px solid #ccc;
+    overflow-x: scroll;
+    display:flex;
+    gap : 1vw;
+  }
+  
+  /* a moi */
+  
+  .menu__section--card p {
+      color: #1b1b1b;
+      font-size: 16px !important;
+  }
+  
+  .menu__section--card h3 {
+      text-transform: uppercase;
+      font-family: 'Lato';
+      font-weight: bold;
+      font-size: 25px !important;
+      color: #1b1b1b;
+  }
+  
+  .menu__section--card {
+      border: solid 2px #FF5252;
+      min-width: 250px;
+      max-width: 250px;
+      max-height: 350px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+  
+  }
+  
+  .menu__section--article-card {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      margin: 18px 18px 0 18px;
+  }
+  
+  .menu__section--article-card img {
+      max-width: 100%;
+  }
+  
+  .menu__section--article-card h3 {
+      margin: 1vh 0 0.5vh 0;
+  }
+  
+  .menu__section--article-card p {
+      margin: 0;
+  }
+  
+  .menu__section--card a {
+      text-decoration: none;
+      font-family: "Lato";
+      color: #1b1b1b;
+      border: 2px solid rgba(255, 82, 82, 1);
+      background: transparent;
+      width: 21px;
+      height: 21px;
+      padding: 10px;
+      border-radius: 50px;
+      text-align: center;
+      display: inline-block;
+      margin: 2vh 0 2vh 0;
+  }
+  
+  .menu__section--card a:hover {
+      background-color: #FF5252;
+      color: #FFFFFF;
+  }
 @media screen and (max-width: 500px) {
 
-    
-    
-    .menu__line{
+
+
+    .menu__line {
         flex-direction: column;
     }
+
     .menu a {
-        width:50vw;
+        width: 50vw;
         height: 20vh;
-        
+
     }
-    
-   
+
+
 }
