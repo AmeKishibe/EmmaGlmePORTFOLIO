@@ -142,8 +142,13 @@ button:hover{
 
 @media screen and (max-width: 500px) {
 
+    button{
+        display: none;
+    }
+    #menu__scroll {
+        width: 90vw;
 
-
+    }
     .menu__line {
         flex-direction: column;
     }
