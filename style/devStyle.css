@@ -3,12 +3,13 @@
     justify-content: center;
     gap: 3vw;
     align-items: center;
-    margin-top: 7vh;
+    margin-top: 9vh;
+    
 }
 
 #menu__scroll {
     width: 75vw;
-    height: auto;
+    height: 52vh;
     border: 1px solid #ccc;
     overflow-x: scroll;
     display: flex;
@@ -66,8 +67,6 @@
 
 .menu__section--card a {
     text-decoration: none;
-    font-family: "Lato";
-    color: #1b1b1b;
     border: 2px solid rgba(255, 82, 82, 1);
     background: transparent;
     width: 21px;
@@ -141,7 +140,9 @@ button:hover{
 }
 
 @media screen and (max-width: 500px) {
-
+    .menu__scroll--container {
+        margin-bottom: 15vh;
+    }
     button{
         display: none;
     }

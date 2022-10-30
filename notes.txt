@@ -3,5 +3,5 @@ ajt maquetts figma dans projets autres ---> UX UI : autres.html : mettre des car
 --> pareil pour dev .html --> mettre cartes ------> ajt scroll horizontal ============  OKAY
 --------------------------------------------------------------------------------------------------------------------------------
 
-modif img carte dev page
+modif img carte dev page ====> AJT TAG LANGAGE (ex : html/css/js/php/mySQL)
 rédiger chaque projet dev 
