@@ -1,0 +1,61 @@
+.contact__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    gap: 3vh;
+}
+.contact__section p{
+    margin: 0;
+}
+.contact__section a {
+    font-size: 25px;
+    font-family: "Satoshi";
+    font-weight: 500;
+    border: 2px solid #FF5252;
+    padding: 1vh 3vw 1vh 3vw;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.contact__section--social-network {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.75vw;
+}
+
+.contact__section--social-network a {
+    
+    padding: 1vh 2vw 1vh 2vw;
+    
+}
+
+.contact__section a:hover {
+    color: white;
+    background-color: #FF5252;
+}
+
+@media screen and (max-width: 500px) {
+    .contact__section {
+        margin: 5vh 3vw 0 3vw;
+    }
+
+    .contact__section a {
+        font-size: 20px;
+        font-family: "Satoshi";
+        font-weight: 500;
+        border: 2px solid #FF5252;
+        padding: 1vh 3vw 1vh 3vw;
+        border-radius: 50px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .contact__section--social-network {
+
+        gap: 5vw;
+    }
+
+}

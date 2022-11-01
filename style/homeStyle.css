@@ -64,7 +64,7 @@ abbr{
     font-family: 'Satoshi';
     color: white;
     font-size: 20px;
-    text-transform: uppercase;
+    font-weight: 500;
 
 }
 
@@ -96,6 +96,7 @@ abbr{
 
 .footer__btn-container h2 {
     font-family: "Satoshi";
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 1vh;
 
