@@ -7,9 +7,11 @@ body {
     
     
 }
-
+h1{
+    margin: 0;
+}
 p {
-    font-family: "Lato";
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 20px;
 }
@@ -18,7 +20,7 @@ a {
 
     font-style: none;
     color: #ff5252;
-    font-family: 'Lato';
+    font-family: 'Satoshi';
     font-weight: 900;
 }
 
@@ -27,7 +29,7 @@ a {
 
 .vertical-line{
     position: fixed;
-    background: linear-gradient(355deg, rgba(255,205,146,1) 0%, rgba(255,82,82,1) 100%);
+    background:  rgba(255,82,82,1) ;
     height: 100vh;
     top: 0;
     left: 6vw;
@@ -76,7 +78,8 @@ a {
 
 .page-header__nav a{
     text-decoration: none;
-    font-family: "Lato";
+    font-family: "Satoshi";
+    font-weight: normal;
     color: #1b1b1b;
     border: 2px solid rgba(255,82,82,1);
     background: transparent;

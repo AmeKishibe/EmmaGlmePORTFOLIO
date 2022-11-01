@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Abril Fatface";
+    src: url("/fonts/AbrilFatface-Regular.ttf");
+
+}
+
+@font-face {
+    font-family: "Satoshi Black";
+    src: url("/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf");
+
+}
+@font-face {
+    font-family: "Satoshi Bold";
+    src: url("/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf");
+
+}
+@font-face {
+    font-family: "Satoshi";
+    src: url("/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+
+}
+@font-face {
+    font-family: "Satoshi Light";
+    src: url("/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf");
+
+}
+@font-face {
+    font-family: "Satoshi Medium";
+    src: url("/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf");
+
+}

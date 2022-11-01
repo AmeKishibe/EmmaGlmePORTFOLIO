@@ -14,7 +14,7 @@ p{
 }
 h3{
     text-transform: uppercase;
-    font-family: 'Lato';
+    font-family: 'Satoshi';
     font-weight: bold;
     font-size: 25px;
     color: #1b1b1b;
@@ -52,7 +52,7 @@ h3{
 
 .UX__section--card a{
     text-decoration: none;
-    font-family: "Lato";
+    font-family: "Satoshi";
     color: #1b1b1b;
     border: 2px solid rgba(255,82,82,1);
     background: transparent;

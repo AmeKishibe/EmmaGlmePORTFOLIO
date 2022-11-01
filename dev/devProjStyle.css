@@ -9,14 +9,14 @@ body {
 }
 
 p {
-    font-family: "Lato";
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 17px;
 }
 
 li {
 
-    font-family: "Lato";
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 17px;
 
@@ -37,14 +37,14 @@ a {
 }
 
 .project a {
-    font-family: "Lato";
+    font-family: "Satoshi";
     font-weight: 500;
     font-size: 18px;
 }
 
 
 h2 {
-    font-family: "Lato";
+    font-family: "Satoshi";
     font-size: 27px;
     font-weight: 600;
 }
@@ -57,7 +57,7 @@ h2 {
 
 .projet__text--title a{
     text-decoration: none;
-    font-family: "Lato";
+    font-family: "Satoshi";
     color: #1b1b1b;
     border: 2px solid rgba(255,82,82,1);
     background: transparent;

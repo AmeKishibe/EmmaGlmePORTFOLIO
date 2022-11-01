@@ -1,59 +1,79 @@
-.presentation{ 
+h2 {
+    font-family: "Satoshi";
+}
+
+.presentation {
+    margin: 8vh 0 0 0;
     display: flex;
     flex-direction: row;
-    gap: 5vw;
+    gap: 15vw;
     align-items: center;
 
 }
-
+figure{ 
+    margin: 0;
+}
 .presentation__text {
+    margin-bottom: 2vh;
     display: flex;
     flex-direction: column;
-    
 }
 
-.presentation img{
+.presentation__text h2 {
+    margin: 0;
+}
+.presentation__text p {
+    margin-top: 1vh;
+}
+abbr{
+    font-family: "Satoshi";
+    font-weight: 600;
+    text-decoration: none;
+}
+.presentation img {
     width: 100%;
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
-    margin: 1%;
     border-radius: 8%;
-    
+
 }
 
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 2vh;
+    margin-top: 10vh;
+    gap: 5vw;
 
 }
 
 .footer a {
-    
+
     text-decoration: none;
     -webkit-filter: brightness(1);
 }
 
-.footer a :hover :not(span){
+.footer a :hover :not(span) {
     -webkit-filter: brightness(0.35);
-    
+
 }
 
-.footer__button { 
-    overflow: hidden; 
-    font-family: 'Lato';
+.footer__button {
+    overflow: hidden;
+    font-family: 'Satoshi';
     color: white;
     font-size: 20px;
-    
+    text-transform: uppercase;
+
 }
 
 .footer__button img {
     width: 100%;
 }
-.footer__button .caption { 
-    opacity: 0; 
+
+.footer__button .caption {
+    opacity: 0;
     transition: .5s ease;
     position: absolute;
     top: 50%;
@@ -62,13 +82,28 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-.footer__button:hover .caption { 
-    opacity: 1; 
-    
+
+.footer__button:hover .caption {
+    opacity: 1;
+
+}
+
+.footer__btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__btn-container h2 {
+    font-family: "Satoshi";
+    font-weight: 600;
+    margin-bottom: 1vh;
+
 }
 
 
 @media screen and (max-width: 500px) {
+
 
     .presentation {
         flex-direction: column;
@@ -76,13 +111,16 @@
 
     .page-header {
         flex-direction: column;
-    
+
     }
-    footer{ 
+
+    footer {
         flex-direction: column;
+        margin-bottom: 10vh;
     }
-    .page-header__nav{
+
+    .page-header__nav {
         margin-top: 5vh;
     }
- 
+
 }
