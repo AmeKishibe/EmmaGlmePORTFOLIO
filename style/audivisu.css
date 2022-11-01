@@ -1,0 +1,51 @@
+*{
+    scroll-behavior: smooth;
+}
+h2{
+    font-size: 25px;
+    font-family: "Satoshi";
+}
+
+h3{
+    font-family: "Satoshi";
+
+}
+iframe{
+    width:560px;
+     height:315px;
+}
+.audiovisu__section--ancres a{
+    background-color: rgb(255, 255, 255);
+    color: #1B1B1B;
+    border: #1B1B1B solid 2px;
+    text-decoration: none;
+    font-family: "Satoshi";
+    font-size: 15px;
+    width: auto;
+    height: 15px;
+    padding: 10px 10px 14px 10px;
+    border-radius: 50px;
+    text-align: center;
+    display: inline-block;
+
+}
+.audiovisu__section--ancres a:hover{
+    background-color: #1B1B1B;
+    color: #FEF9F9;
+}
+.audiovisu__section--ancres a:active{
+    background-color: #1B1B1B;
+    color: #FEF9F9;
+}
+.audiovisu__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4vh 6vw 0 6vw;
+}
+
+.audiovisu__section--video{
+    display: flex;
+    justify-content: center;
+}

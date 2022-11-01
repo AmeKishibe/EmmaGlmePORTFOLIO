@@ -10,9 +10,11 @@ h2 {
     align-items: center;
 
 }
-figure{ 
+
+figure {
     margin: 0;
 }
+
 .presentation__text {
     margin-bottom: 2vh;
     display: flex;
@@ -22,14 +24,17 @@ figure{
 .presentation__text h2 {
     margin: 0;
 }
+
 .presentation__text p {
     margin-top: 1vh;
 }
-abbr{
+
+abbr {
     font-family: "Satoshi";
     font-weight: 600;
     text-decoration: none;
 }
+
 .presentation img {
     width: 100%;
     max-width: 250px;
@@ -101,7 +106,6 @@ abbr{
     margin-bottom: 1vh;
 
 }
-
 
 @media screen and (max-width: 500px) {
 
