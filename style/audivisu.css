@@ -45,7 +45,49 @@ iframe{
     margin: 4vh 6vw 0 6vw;
 }
 
+.audiovisu__title-vid{
+    display: flex;
+    flex-direction: column;
+}
+
+
 .audiovisu__section--video{
     display: flex;
     justify-content: center;
+}
+.audiovisu__section--article{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.audiovisu__btn--voirplus{
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.audiovisu__btn--voirplus button{
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 82, 82);
+    padding: 9px 2vw 9px 2vw;
+    cursor: pointer;
+}
+.audiovisu__btn--voirplus img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 500px) {
+    
+    iframe{
+        width:100%
+    }
+    .audiovisu__section{
+        margin: 4vh 4vw 0 4vw;
+    }
+
 }
