@@ -5,3 +5,9 @@ ajt maquetts figma dans projets autres ---> UX UI : autres.html : mettre des car
 
 modif img carte dev page ====> AJT TAG LANGAGE (ex : html/css/js/php/mySQL)
 rédiger chaque projet dev 
+
+
+A faire : 
+- texte chaque projet dev  : Hélo Vélo, Goro, Scul'peaux, Jamais 203, Old portfolio et ruby 
+- rediger text motio design / navette k7
+- add motion design CFA stage Quetin 

@@ -25,15 +25,11 @@ figure {
     margin: 0;
 }
 
-.presentation__text p {
+.presentation__text p{
     margin-top: 1vh;
+    line-height: 6vh;
 }
 
-abbr {
-    font-family: "Satoshi";
-    font-weight: 600;
-    text-decoration: none;
-}
 
 .presentation img {
     width: 100%;
@@ -106,6 +102,57 @@ abbr {
     margin-bottom: 1vh;
 
 }
+
+.footer__btn--h2 {
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 1vh;
+}
+
+.footer__btn--h2:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background-color: #FF5252;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.footer__btn--h2:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+abbr a{
+    font-family: "Satoshi";
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+abbr a:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background-color: #FF5252;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;}
+abbr a:hover:after{
+    width: 100%;
+    left: 0;
+}
+
 
 @media screen and (max-width: 500px) {
 

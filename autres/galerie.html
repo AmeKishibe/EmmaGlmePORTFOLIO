@@ -102,7 +102,7 @@
 
 
   
-  <div class="menu__scroll--container">
+  <!-- <div class="menu__scroll--container">
     <button id="slide-left2" type="button"><i class="arrow left"></i></button>
     <div id="menu__scroll2">
       <div class="menu__section--card">
@@ -174,7 +174,7 @@
     <button id="slide-right2" type="button"><i class="arrow right"></i></button>
 
 
-  </div>
+  </div> -->
 
   <a href="../autres.html"> Retour </a>
   <script>
@@ -188,13 +188,13 @@
     buttonL.onclick = () => {
       document.getElementById('menu__scroll').scrollLeft -= 260;
     };
-    buttonR2.onclick = () => {
-      document.getElementById('menu__scroll2').scrollLeft += 260;
-    };
+    // buttonR2.onclick = () => {
+    //   document.getElementById('menu__scroll2').scrollLeft += 260;
+    // };
 
-    buttonL2.onclick = () => {
-      document.getElementById('menu__scroll2').scrollLeft -= 260;
-    };
+    // buttonL2.onclick = () => {
+    //   document.getElementById('menu__scroll2').scrollLeft -= 260;
+    // };
     const scrollContainer = document.getElementById("menu__scroll");
 
     scrollContainer.addEventListener("wheel", (evt) => {
@@ -203,10 +203,10 @@
     });
     const scrollContainer2 = document.getElementById("menu__scroll2");
 
-    scrollContainer2.addEventListener("wheel", (evt) => {
-      evt.preventDefault();
-      scrollContainer2.scrollLeft += evt.deltaY;
-    });
+    // scrollContainer2.addEventListener("wheel", (evt) => {
+    //   evt.preventDefault();
+    //   scrollContainer2.scrollLeft += evt.deltaY;
+    // });
 
   </script>
 
