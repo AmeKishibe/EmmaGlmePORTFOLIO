@@ -27,7 +27,32 @@ a {
     color: #FF5252;
     font-weight: 900;
 }
+.project__btn {
+    text-decoration: none;
+    font-family: "Satoshi";
+    font-weight: normal;
+    color: #1b1b1b;
+    border: 2px solid rgba(255,82,82,1);
+    background: transparent;
+    width:145px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+}
 
+.project__btn:hover{
+    background-color: #FF5252;
+    color: #FFFFFF;
+}
+
+.project__btn--container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
 
 
 
