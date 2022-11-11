@@ -1,0 +1,11 @@
+.ux__section--iframe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-family: "Satoshi";
+}
+h3{
+    font-family: "Satoshi";
+}
