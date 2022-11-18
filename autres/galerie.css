@@ -4,6 +4,7 @@
     gap: 3vw;
     align-items: center;
     margin-top: 9vh;
+
     
 }
 
@@ -15,6 +16,8 @@
     display: flex;
     gap: 2vw;
     border: none;
+    scroll-behavior: smooth;
+
 }
 #menu__scroll2 {
     width: 75vw;
