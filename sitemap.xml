@@ -9,82 +9,77 @@
 
 <url>
   <loc>https://emmaguillaume.fr/</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/index.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://emmaguillaume.fr/cv-eg.pdf</loc>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/contact.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/dev.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/dessin.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/audiovisuel.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/autres.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/dev/helovelo.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/dev/cigale.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/dev/blogart.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/dev/goroskhova.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/dev/handiplay.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://emmaguillaume.fr/dev/oldportfolio</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/dev/rubyonrails.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://emmaguillaume.fr/autres/galerie.html</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://emmaguillaume.fr/autres/uxhelovelo</loc>
-  <lastmod>2022-11-02T14:20:30+00:00</lastmod>
+  <lastmod>2022-12-06T15:01:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
